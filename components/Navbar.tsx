@@ -16,7 +16,7 @@ const Navbar = () => {
     const [display, changeDisplay] = useState('none')
     return (
         <Box w='100%' bgColor='#033303'>
-            <Box w='60%' mx='auto'>
+            <Box maxW='container.xl' mx={{ md: 'auto' }}>
                 {/* Desktop */}
                 <Flex
                     display={['none', 'none', 'flex', 'flex']}
@@ -49,18 +49,25 @@ const Navbar = () => {
 
                 {/* Mobile */}
 
-                <IconButton
-                    aria-label="Open Menu"
-                    color='#DDAC66'
-                    bgColor='transparent'
-                    size="lg"
-                    mr={2}
-                    icon={
-                        <HamburgerIcon />
-                    }
-                    onClick={() => changeDisplay('flex')}
-                    display={['flex', 'flex', 'none', 'none']}
-                />
+                <Box display={['flex', 'flex', 'none', 'none']}>
+                    <Flex p='2' justifyContent="flex-start">
+                        <Link href="/"><Image src='/Logo.png' alt='Logo' width='150' height='33' /></Link>
+                    </Flex>
+                    <Spacer />
+                    <Flex justifyContent="flex-end">
+                        <IconButton
+                            aria-label="Open Menu"
+                            color='#DDAC66'
+                            bgColor='transparent'
+                            size="lg"
+                            icon={
+                                <HamburgerIcon />
+                            }
+                            onClick={() => changeDisplay('flex')}
+                        />
+                    </Flex>
+                </Box>
+
 
             </Box>
 
