@@ -36,7 +36,7 @@ function Footer() {
                         </GridItem>
                     </SimpleGrid>
                 </Box>
-                <SimpleGrid maxW='container.xl' mx='auto' color='#ffffff' columns={{ base: 1, md: 2 }}>
+                <SimpleGrid maxW='container.xl' mx='auto' color='#ffffff' columns={{ base: 1, md: 2 }} lineHeight={{ base: "18px", md: 1.5 }} fontSize={{ base: "14px", md: "16px" }}>
                     <GridItem textAlign={{ base: 'center', md: 'left' }} pt={{ base: 4, md: 4 }} pb={{ base: 0, md: 4 }}>
                         Kavini &copy; 2022. All Rights Reserved.
                     </GridItem>

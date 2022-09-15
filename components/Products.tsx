@@ -8,7 +8,7 @@ function Products(props: any) {
                 <Image alt=' ' src={props.img} width='163' height='136' mr='5' border='1px' borderColor='gray.200' mb={{ base: 3 }} />
                 <Box>
                     <Heading as='h4' size='md' color='#033303' mb='3'>{props.title}</Heading>
-                    <Text fontSize='xs' mb='3'>{props.bodytext}</Text>
+                    <Text fontSize={{ base: "12px", md: "15px" }} mb='3'>{props.bodytext}</Text>
                     <Flex alignItems="center" justifyContent="center">
                         <Heading as='h6' size='xs' color='#C99035'>{props.price}</Heading>
                         <Spacer />
