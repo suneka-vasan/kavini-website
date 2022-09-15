@@ -9,7 +9,7 @@ function Footer() {
                 <Box py='10' maxW='container.xl' color='#C99035' mx='auto' borderBottom='1px' >
                     <SimpleGrid columns={{ base: 1, md: 3 }} gap={2} mx={{ base: 0, md: 'auto' }}>
                         <GridItem display={{ base: 'flex', md: 'flex' }} alignItems='center' justifyContent='center'>
-                            <Stack direction={['column', 'row']} spacing={['20px', '50px']}>
+                            <Stack direction={['column', 'row']} spacing={['20px', '50px']} textAlign={{ base: "center" }}>
                                 <Link href="/">
                                     Home
                                 </Link>

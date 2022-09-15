@@ -8,7 +8,7 @@ function ProductSection() {
                 <Box maxW='container.xl' mx={{ base: 0, md: 'auto' }} >
                     <Heading pt='10' color='#033303' textAlign='center' mb='5'>Trending Products</Heading>
                     <SimpleGrid pb='10' columns={{ base: 1, md: 2 }} gap={{ base: 0, md: 5 }}>
-                        <GridItem mb={{ base: 5, md: 0 }}>
+                        <GridItem mb={{ base: 5, md: 0 }} p={{ base: 5 }}>
                             <Box flex='1' p='5' bg='white'>
                                 <Products
                                     img='/Product_1.jpg'
@@ -19,7 +19,7 @@ function ProductSection() {
                                 />
                             </Box>
                         </GridItem>
-                        <GridItem mb={{ base: 5, md: 0 }}>
+                        <GridItem mb={{ base: 5, md: 0 }} p={{ base: 5 }}>
                             <Box flex='1' p='5' bg='white'>
                                 <Products
                                     img='/Product_2.jpg'
@@ -30,7 +30,7 @@ function ProductSection() {
                                 />
                             </Box>
                         </GridItem>
-                        <GridItem mb={{ base: 5, md: 0 }}>
+                        <GridItem mb={{ base: 5, md: 0 }} p={{ base: 5 }}>
                             <Box flex='1' p='5' bg='white' gap={{ base: 0, md: 5 }}>
                                 <Products
                                     img='/Product_3.jpg'
@@ -41,7 +41,7 @@ function ProductSection() {
                                 />
                             </Box>
                         </GridItem>
-                        <GridItem mb={{ base: 5, md: 0 }}>
+                        <GridItem mb={{ base: 5, md: 0 }} p={{ base: 5 }}>
                             <Box flex='1' p='5' bg='white'>
                                 <Products
                                     img='/Product_4.jpg'

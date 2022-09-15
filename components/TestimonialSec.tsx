@@ -9,11 +9,11 @@ function TestimonialSec() {
                     backgroundImage: 'url(/Bg.jpg)',
                     backgroundSize: 'cover',
                     backgroundRepeat: 'no-repeat',
-                    width: 'container.xl'
+                    width: 'container.xl',
                 }}>
                     <Box p={{ base: 5, md: 10 }}>
                         <Heading color='#C99035' textAlign='center' mb='5'>What Client&lsquo;s Say</Heading>
-                        <Box w='100%' textAlign='center' color='#f2f2f2'>
+                        <Box w='100%' textAlign='center' color='#f2f2f2' lineHeight={{ base: "18px", md: 1.5 }} fontSize={{ base: "14px", md: "16px" }}>
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
                             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.<br /><br />
                             <Text color='#C99035'>- Name Name</Text>

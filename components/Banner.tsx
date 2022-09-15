@@ -6,10 +6,8 @@ function Banner() {
             <Image
                 src='/Banner.jpg'
                 alt='Banner Image'
-                objectPosition={{ base: 'initial', md: 'initial' }}
-                objectFit={{ base: 'cover', md: 'cover' }}
                 width={1920}
-                height={435} />
+                height={{}} />
         </Box>
     )
 }

@@ -4,8 +4,8 @@ import CusButton2 from '../components/CusButton_2'
 function Products(props: any) {
     return (
         <>
-            <Flex alignItems="center" justifyContent="center">
-                <Image alt=' ' src={props.img} width='163' height='136' mr='5' border='1px' borderColor='gray.200' />
+            <Flex alignItems="center" justifyContent="center" flexFlow={{ base: "column", md: "row" }} >
+                <Image alt=' ' src={props.img} width='163' height='136' mr='5' border='1px' borderColor='gray.200' mb={{ base: 3 }} />
                 <Box>
                     <Heading as='h4' size='md' color='#033303' mb='3'>{props.title}</Heading>
                     <Text fontSize='xs' mb='3'>{props.bodytext}</Text>
@@ -14,7 +14,6 @@ function Products(props: any) {
                         <Spacer />
                         <CusButton2 title='Add To Cart' path={props.path} />
                     </Flex>
-
                 </Box>
             </Flex>
         </>
