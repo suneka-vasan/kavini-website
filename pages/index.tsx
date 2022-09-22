@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar'
 import Banner from '../components/Banner'
 import DiscoverSection from '../components/DiscoverSection'
 import ProductSection from '../components/ProductSection'
-import TestimonialSec from '../components/TestimonialSec'
+import Testimonial_1 from '../components/Testimonial_1'
 import Newsletter from '../components/Newsletter'
 import Footer from '../components/Footer'
 
@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       <Banner />
       <DiscoverSection />
       <ProductSection />
-      <TestimonialSec />
+      <Testimonial_1 />
       <Newsletter />
       <Footer />
     </>
