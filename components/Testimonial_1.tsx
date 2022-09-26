@@ -73,7 +73,7 @@ export default function Testimonial_1(props: any) {
             <Flex
                 align={"center"}
                 h={{ base: 400, md: 400, xl: 500 }}
-                mt={{ base: "62px", md: "72px" }}
+                mt={{ base: "50px", md: "50px" }}
                 style={{
                     backgroundImage: 'url(/Bg.jpg)',
                     backgroundSize: 'cover',
