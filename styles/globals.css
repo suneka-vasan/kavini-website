@@ -1,0 +1,19 @@
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #C99035 !important;
+}
+.slick-dots li button:before {
+    opacity: .25;
+    color: #C99035 !important;
+}
+body,  p {
+    font-family: 'Open Sans', sans-serif !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+font-family: 'Raleway', sans-serif !important;
+}

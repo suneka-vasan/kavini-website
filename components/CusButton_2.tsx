@@ -13,14 +13,14 @@ function CusButton2(props: any) {
                         rounded="30px"
                         fontSize="13px"
                         fontWeight="semibold"
-                        bg="#C99035"
-                        borderColor="#C99035"
-                        color="#033303"
-                        _hover={{ bg: "#C99035" }}
+                        bg="#033303"
+                        borderColor="#033303"
+                        color="#C99035"
+                        _hover={{ bg: "#033303" }}
                         _active={{
-                            bg: "#C99035",
+                            bg: "#033303",
                             transform: "scale(0.98)",
-                            borderColor: "#C99035",
+                            borderColor: "#033303",
                         }}
                     >
                         {props.title}
