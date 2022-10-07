@@ -14,7 +14,7 @@ function CusButton2(props: any) {
                         fontSize="13px"
                         fontWeight="semibold"
                         bg="#033303"
-                        borderColor="#033303"
+                        borderColor="#ccd0d5"
                         color="#C99035"
                         _hover={{ bg: "#033303" }}
                         _active={{

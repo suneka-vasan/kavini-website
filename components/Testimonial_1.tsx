@@ -52,7 +52,7 @@ export default function Testimonial_1(props: any) {
     }
 
     return (
-        <Box pos={"relative"} overflow={"hidden"} mb={{ base: 10, md: 12, lg: 16, xl: 20 }}>
+        <Box pos={"relative"} overflow={"hidden"}>
             {bubbles &&
                 bubbles.map((e, index) => {
                     return (

@@ -10,7 +10,7 @@ function Footer() {
                     <SimpleGrid columns={{ base: 1, md: 3 }} gap={2} mx={{ base: 0, md: 'auto' }}>
                         <GridItem display='block' alignItems='center' justifyContent='center' padding={{ base: 10, md: 0 }}>
                             <Image src='/Logo_Full.png' width='100' height='100' alt='Logo' />
-                            <Text>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda dicta et eveniet facere fuga impedit laboriosam neque numquam odio optio perspiciatis, quasi quod repudiandae sed voluptate voluptatibus. Earum, labore.</Text>
+                            <Text fontSize={{ base: 14, md: 16 }}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi assumenda dicta et eveniet facere fuga impedit laboriosam neque numquam odio optio perspiciatis, quasi quod repudiandae sed voluptate voluptatibus. Earum, labore.</Text>
                         </GridItem>
                         <GridItem display={{ base: 'flex', md: 'flex' }} alignItems='start' justifyContent='center'>
                             <Stack direction={['column', 'column']} spacing={['20px', '20px']} textAlign={{ base: "left" }}>
@@ -31,14 +31,14 @@ function Footer() {
                                 </Link>
                             </Stack>
                         </GridItem>
-                        <Stack>
-                            <VStack pb='5'>
+                        <Stack alignItems='start' ms={{ base: '10', md: '20' }}>
+                            <Box pb='5' fontSize={{ base: 14, md: 16 }} lineHeight='10'>
                                 <Heading fontSize='22'>Reach Us</Heading>
                                 <Text>123, Church Road, Chennai- 28</Text>
                                 <Text>info@kavini.com</Text>
                                 <Text>+01 23456789</Text>
-                            </VStack>
-                            <VStack>
+                            </Box>
+                            <VStack alignItems='start'>
                                 <Heading fontSize='22' pb='3'>Follow Us</Heading>
                                 <HStack spacing='50px'>
                                     <BsFacebook />

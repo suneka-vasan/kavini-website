@@ -10,11 +10,12 @@ function Newsletter() {
     return (
         <div>
             <Box>
-                <Box mx='auto' style={{
-                    backgroundImage: 'url(/Bg_2.png)',
-                    backgroundSize: 'cover',
+                <Box mx='auto' m='10' style={{
+                    backgroundImage: 'url(/Bg_222.jpg)',
+                    backgroundSize: 'contain',
                     backgroundRepeat: 'no-repeat',
-                    width: 'full'
+                    width: 'full',
+                    backgroundPosition: 'center'
                 }}>
                     <Box p='10'>
                         <Heading color='#C99035' textAlign='center' mb='5'>Sign up for Newsletter</Heading>
